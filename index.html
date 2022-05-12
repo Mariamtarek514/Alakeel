@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Alakeel</title>
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- style links -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+    <!-- start header section -->
+    <header>
+        <div class="container">
+            <div class="log">
+                <i class="fa-solid fa-utensils"></i>
+                <a href="/index.html">الأكيل</a>
+            </div>
+            <nav>
+                <button id="open-nav">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <button id="close-nav">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <li><a href="#main">الرئيسيه</a></li>
+                    <li><a href="#advantage">المميزات</a></li>
+                    <li><a href="#menue">قائمة الطعام</a></li>
+                    <li><a href="#cta">احجز مقعدك </a></li>
+                    <li><a href="#testimoanial"> اراء العملاء</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header section -->
+    <!-- start landing page -->
+    <section class="landing" id="main">
+        <div class="container">
+            <div class="content">
+                <h1>أشهى الوجبات</h1>
+                <span>طعام صحي</span>
+                <p>
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد
+                    تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد
+                    مثل لنص
+                </p>
+                <a href="#menue" class="btn">قائمة الطعام</a>
+            </div>
+            <figure>
+                <img src="images/dish.png" alt="dish" />
+            </figure>
+        </div>
+    </section>
+    <!-- end landing page -->
+    <!-- start advantage section -->
+    <section class="advantage" id="advantage">
+        <div class="container">
+            <div class="heading">
+                <h2>لماذا الأكيل هو الافضل ؟</h2>
+            </div>
+            <div class="advantage__container">
+                <div class="box">
+                    <img src="icons/adv-1-icon.svg" />
+                    <h3>طعام صحي</h3>
+                    <p>
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                        لقد تم توليد هذا النص من مولد النص العربى
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="icons/adv-2-icon.svg" />
+                    <h3>وصفات مميزة</h3>
+                    <p>
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                        لقد تم توليد هذا النص من مولد النص العربى
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="icons/adv-3-icon.svg" />
+                    <h3>عروض حصرية</h3>
+                    <p>
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                        لقد تم توليد هذا النص من مولد النص العربى
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end advantage section -->
+    <!-- start menue section -->
+    <section class="menue" id="menue">
+        <div class="container">
+            <div class="head">
+                <h2>قائمة الطعام</h2>
+                <ul class="selection">
+                    <li class="select active" data-categroy=".all">كل الوجبات</li>
+                    <li class=" select" data-categroy=".breakfast">الافطار</li>
+                    <li class=" select" data-categroy=".launch">الغداء</li>
+                    <li class="select" data-categroy=".dinner">العشاء</li>
+                </ul>
+            </div>
+            <div class="content" id="menue-choice">
+                <div class="box dinner all">
+                    <figure>
+                        <img src="images/menu-1.png" alt="menue" />
+                    </figure>
+                    <div class="text">
+                        <h4>اسم الوجبه</h4>
+                        <div class="size">
+                            <span>120جم</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box all breakfast">
+                    <figure>
+                        <img src="images/menu-2.png" alt="menue" />
+                    </figure>
+                    <div class="text">
+                        <h4>اسم الوجبه</h4>
+                        <div class="size">
+                            <span>120جم</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box all launch">
+                    <figure>
+                        <img src="images/menu-3.png" alt="menue" />
+                    </figure>
+                    <div class="text">
+                        <h4>اسم الوجبه</h4>
+                        <div class="size">
+                            <span>120جم</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box all launch">
+                    <figure>
+                        <img src="images/menu-4.png" alt="menue" />
+                    </figure>
+                    <div class="text">
+                        <h4>اسم الوجبه</h4>
+                        <div class="size">
+                            <span>120جم</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box all breakfast">
+                    <figure>
+                        <img src="images/menu-5.png" alt="menue" />
+                    </figure>
+                    <div class="text">
+                        <h4>اسم الوجبه</h4>
+                        <div class="size">
+                            <span>120جم</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box all launch">
+                    <figure>
+                        <img src="images/menu-6.png" alt="menue" />
+                    </figure>
+                    <div class="text">
+                        <h4>اسم الوجبه</h4>
+                        <div class="size">
+                            <span>120جم</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box all dinner">
+                    <figure>
+                        <img src="images/menu-7.png" alt="menue" />
+                    </figure>
+                    <div class="text">
+                        <h4>اسم الوجبه</h4>
+                        <div class="size">
+                            <span>120جم</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box all breakfast">
+                    <figure>
+                        <img src="images/menu-8.png" alt="menue" />
+                    </figure>
+                    <div class="text">
+                        <h4>اسم الوجبه</h4>
+                        <div class="size">
+                            <span>120جم</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end menue section -->
+    <!-- start book section -->
+    <section class="cta" id="cta">
+        <div class="info">
+            <h2>أحجز موقعك</h2>
+            <form>
+                <div class="form-contaienr">
+                    <div class="form-groub">
+                        <label for="date">التاريخ</label>
+                        <input type="date" id="date" />
+                    </div>
+                    <div class="form-groub">
+                        <label for="tiem">الوقت</label>
+                        <input type="time" id="time" />
+                    </div>
+                    <div class="form-groub">
+                        <label for="number">العدد</label>
+                        <select id="number">
+                            <option value="1">1</option>
+                            <option value="1">2</option>
+                            <option value="1">3</option>
+                            <option value="1">4</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" class="btn" value="احجز الان" />
+            </form>
+        </div>
+    </section>
+    <!-- end book section -->
+    <!-- start testomainal section -->
+    <section class="testimoanial" id="testimoanial">
+        <div class="container">
+            <h2>آراء عملاء الأكيل</h2>
+            <div class="content">
+                <div class="card active">
+                    <div class="info">
+                        <img src="images/user1.png" alt="user" />
+                        <div class="info-text">
+                            <h4>أحمد جمال</h4>
+                            <small>عميل مميز</small>
+                        </div>
+                    </div>
+                    <p>
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                        لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك
+                        أن تولد مثل لنص هذا النص هو مثال لنص يمكن أن يستبدل
+                        في نفس المساحة.
+                    </p>
+                    <div class="stars">
+                        <img src="icons/star.svg" alt="star" />
+                        <img src="icons/star.svg" alt="star" />
+                        <img src="icons/star.svg" alt="star" />
+                        <img src="icons/star.svg" alt="star" />
+                        <img src="icons/star.svg" alt="star" />
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="info">
+                        <img src="images/user2.png" alt="user" />
+                        <div class="info-text">
+                            <h4>علي علاء</h4>
+                            <small>عميل مميز</small>
+                        </div>
+                    </div>
+                    <p>
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                        لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك
+                        أن تولد مثل لنص هذا النص هو مثال لنص يمكن أن يستبدل
+                        في نفس المساحة.
+                    </p>
+                    <div class="stars">
+                        <img src="icons/star.svg" alt="star" />
+                        <img src="icons/star.svg" alt="star" />
+                        <img src="icons/star.svg" alt="star" />
+                        <img src="icons/star.svg" alt="star" />
+                        <img src="icons/star.svg" alt="star" />
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="info">
+                        <img src="images/user3.png" alt="user" />
+                        <div class="info-text">
+                            <h4>سارة أحمد</h4>
+                            <small>عميل مميز</small>
+                        </div>
+                    </div>
+                    <p>
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                        لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك
+                        أن تولد مثل لنص هذا النص هو مثال لنص يمكن أن يستبدل
+                        في نفس المساحة.
+                    </p>
+                    <div class="stars">
+                        <img src="icons/star.svg" alt="star" />
+                        <img src="icons/star.svg" alt="star" />
+                        <img src="icons/star.svg" alt="star" />
+                        <img src="icons/star.svg" alt="star" />
+                        <img src="icons/star.svg" alt="star" />
+                    </div>
+                </div>
+                <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+                <div id="previous" class="fas fa-chevron-left" onclick="previous()"></div>
+            </div>
+        </div>
+    </section>
+    <!-- end testomainal section -->
+    <!-- start contact section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-container">
+                <h2>خدمة العملاء</h2>
+                <div class="box">
+                    <p>
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                        لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك
+                        أن تولد مثل لنص
+                    </p>
+                    <a href="#" class="btn">تواصل معنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact section -->
+    <!-- start footer section -->
+    <footer>
+        <div class="container">
+            <div class="footer-nav">
+                <div class="col">
+                    <div class="log">
+                        <i class="fa-solid fa-utensils"></i>
+                        <a href="/index.html">الأكيل</a>
+                    </div>
+                    <div class="social-link">
+                        <i class="fa-brands fa-facebook-f" style="color: #1877f2"></i>
+                        <i class="fa-brands fa-instagram" style="color: #c13584"></i>
+                        <i class="fa-brands fa-twitter" style="color: #1da1f2"></i>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3>الخدمات</h3>
+                    <ul class="links">
+                        <li><a href="#"> حجز طاولة </a></li>
+                        <li><a href="#"> خدمة العملاء </a></li>
+                        <li><a href="#"> المنتجات </a></li>
+                        <li><a href="#"> قائمة الطعام </a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>الشركة</h3>
+                    <ul class="links">
+                        <li><a href="#"> الوظائف </a></li>
+                        <li><a href="#"> شهادات الجودة </a></li>
+                        <li><a href="#"> المشاركة الاجتماعية </a></li>
+                        <li><a href="#"> عن الشركة </a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>روابط</h3>
+                    <ul class="links">
+                        <li><a href="#"> تواصل معنا </a></li>
+                        <li><a href="#"> سياسة الخصوصبة </a></li>
+                        <li><a href="#"> سياسة الاستخدام </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-text">
+            <p>
+                <a href="https://codv.net/" target="_blank"> designed by codv Academy. </a>
+                made by Mariam El-sarag
+            </p>
+        </div>
+    </footer>
+    <!-- end footer section -->
+    <!-- javaSCript links -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
