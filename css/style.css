@@ -35,6 +35,7 @@ header nav > button,
 header nav > #open-nav {
     display: block;
     cursor: pointer;
+    font-size:21px;
 }
 header nav .nav-links {
     position: absolute;
